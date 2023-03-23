@@ -96,15 +96,16 @@ Under Debian, Ubuntu Linux,
 
     /usr/lib/freecad
 
-**shapeMatch** has been tested with Ubuntu 20.04.5 LTS & FreeCAD 0.20.2, the most trouble-free installation is via Debian Advanced Package Tool, which also allows installation of a compatible pivy library.
-See [official FreeCAD docs](https://wiki.freecad.org/Installing_on_Linux)
-[See also](https://pkgs.org/download/python3-pivy)
+**shapeMatch** has been tested with Ubuntu 20.04.5 LTS & FreeCAD 0.20.2, the most trouble-free installation is via Debian Advanced Package Tool, which also allows installation of a compatible pivy library. To install from a bash shell, 
 
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install freecad
 $ sudo apt-get install python3-pivy
 ```
+
+See [official FreeCAD docs](https://wiki.freecad.org/Installing_on_Linux)
+[See also](https://pkgs.org/download/python3-pivy)
 
 The AppImage squashfs package also tested, but requires that the package is unpacked and pathnames set. 
 Ubuntu snaps FreeCAD 0.20.2 installation does not load local Python site-packages or FreeCAD python objects.
