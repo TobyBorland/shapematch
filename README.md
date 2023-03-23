@@ -105,7 +105,8 @@ $ sudo apt-get install python3-pivy
 ```
 
 See [official FreeCAD docs](https://wiki.freecad.org/Installing_on_Linux)
-[See also](https://pkgs.org/download/python3-pivy)
+
+[See also Pivy 0.6.5 requirement](https://pkgs.org/download/python3-pivy)
 
 The AppImage squashfs package also tested, but requires that the package is unpacked and pathnames set. 
 Ubuntu snaps FreeCAD 0.20.2 installation does not load local Python site-packages or FreeCAD python objects.
