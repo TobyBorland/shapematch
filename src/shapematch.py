@@ -1,5 +1,5 @@
 #
-# Name:        src
+# Name:        shapematch.py
 #
 # Purpose:     This script and ancillary functions demonstrates geometric shape matching
 #               using feature registration points.
