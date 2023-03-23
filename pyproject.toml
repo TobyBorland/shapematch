@@ -1,0 +1,66 @@
+[project]
+name = "shapematch"
+version = "1.0.0b1"
+description = "Proof-of-concept script to extract and test universal shape features that allow rapid SVD identification of similar shape geometries"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = ["registration", "CAD", "Python", "FreeCAD", "coin3D"]
+authors = [
+  { name="Toby Borland", email="tobyborland@live.com" },
+]
+classifiers = [
+	"Development Status :: 4 - Beta",
+	"Environment :: Console",
+	"Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU LGPL2",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering"
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+
+
+dependencies = [
+	"dill",
+	"opencv-python",
+	"scipy",
+	"numpy"
+]
+
+
+[project.scripts]
+shapematch = "shapematch:main"
+
+[project.gui-scripts]
+iv_viewer = "iv_viewer:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mypkg = ["*.stp", "*.obj"]
+
+#Requires-External: libc6 (>= 2.14) sys_platform != "win32"
+#Requires-External: libcoin80c (>= 4.0.0+ds) sys_platform != "win32"
+#Requires-External: libgcc-s1 (>= 3.0) sys_platform != "win32"
+#Requires-External: libgcc-s1 (>= 3.5)  sys_platform != "win32"
+#Requires-External: libsoqt520 (>= 1.6.0+ds1) sys_platform != "win32"
+#Requires-External: libstdc++6 (>= 5) sys_platform != "win32"
+#Requires-External: python3-pyside2.qtcore
+#Requires-External: python3-pyside2.qtgui
+#Requires-External: python3-pyside2.qtopengl
+#Requires-External: python3-pyside2.qtwidgets
+#Requires-External: shiboken2
+
+
+
+
+
+
+
+
