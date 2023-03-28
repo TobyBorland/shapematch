@@ -117,7 +117,7 @@ Libraries required for Open Inventor visual display are installed within the Fre
 Clone the project to a local directory to repeat tests using the NIST/Drexel CAD STEP data
 
 ```bash
-$ git clone https://github.com/USERNAME/shapematch
+$ git clone https://github.com/TobyBorland/shapematch.git
 ```
 
 ### Library installation
